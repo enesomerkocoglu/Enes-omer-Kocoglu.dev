@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --ana-renk : #F2F1EF ;
+    --ikinci-renk : #2C3E50;
+    --üçüncü-renk : #B0B0B0;
+    --dördüncü-renk : #D4B139;
+    --siyah : #000000;
+    --metin-renk : #F9FAFB;  
+}
+html, body {
+    font-family: 'Satoshi' , sans-serif;
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: var(--ana-renk);
+    font-size: 62.5%;
+}
+/*reset bitiş*/
+/*header başlangıç*/
+header {
+    height: 8.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--ikinci-renk);
+    position: relative;
+}
+header nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    font-size: 2rem;
+    list-style: none;
+}
+header nav ul li a {
+    color: var(--metin-renk);
+    text-decoration: none;
+    font-weight:600;
+}
+/*header bitiş*/
+/*main başlangıç*/
+/*anaSayfa başlangıç*/
+.anaSection {
+    width: 60%;
+    height: 50rem;
+    margin-left: 5%;
+    margin-top: 13%;
+    position: relative;
+}
+.anaSection .anah1 {
+    font-size: 5rem;
+    color: var(--siyah);
+    font-weight: 800;
+    margin-bottom: 3%;
+}
+.anaSection .anah3 {
+    font-size: 2.5rem;
+    color: var(--dördüncü-renk);
+    margin-bottom: 9%;
+    letter-spacing: 1%;
+}
+.anaSection .anadiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--üçüncü-renk);
+    height: 26rem;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+.anaSection .anadiv .anap {
+    display: flex;
+    align-items: center;
+    background-color: var(--ikinci-renk);
+    font-size: 1.8rem;
+    color: var(--metin-renk);
+    padding: 3rem;
+    margin: 3rem;
+    height: 80%;
+    border-radius: 20px;
+    text-indent: 30px;
+    font-weight: 500;
+    letter-spacing: 1%;
+    line-height: 2.2rem;
+    
+}
+/*anaSayfa bitiş*/
+/*hakkında başlangıç*/
+.hakSection {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+    background-color: red;
+    margin-top: 10%;
+}
+.container1 {
+    width: 40%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: .28fr .7fr 1fr;
+    background-color:var(--ana-renk);
+    padding:0 3rem ;
+}
+.container2{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    background-color: var(--ikinci-renk);
+}
+.container1 .hakkında {
+    font-size: 4rem;
+    color: var(--ikinci-renk);
+    font-weight: 800;
+    padding-top: 2rem;
+}
+.container1 .profilh3 {
+    font-size: 3rem;
+    color: var(--dördüncü-renk);
+    margin-bottom: 5%;
+}
+.container1 .profilp {
+    font-size: 1.8rem;
+    color: var(--siyah);
+    line-height: 2.5rem;
+    letter-spacing: 1%;
+}
+.container1 .teknikh3 {
+    font-size: 3rem;
+    color: var(--dördüncü-renk);
+    margin-bottom: 5%;
+}
+.container1 .teknikp {
+    font-size: 1.8rem;
+    color: var(--siyah);
+    line-height: 2.5rem;
+    letter-spacing: 1%;
+}
+.container2 .göreseld {
+    width: 100%;
+    height: 10%;
+    background-color: transparent;
+    display: block;
+    border-width: 0 0 5px 0;
+    border-color: var(--dördüncü-renk);
+    border-style: solid;
+}
+.container2 .projeh {
+    font-size: 3rem;
+    color: var(--üçüncü-renk);
+    font-weight: 400;
+    padding-top: 3.5rem;
+    padding-left: 1rem;
+    margin-bottom: 5%;
+}
+.container2 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;   
+    list-style: none;
+    flex-direction: column;
+    gap: 2rem; 
+}
+.container2 ul li {
+    width: 50%;
+    height: 30%;
+    background-color: var(--üçüncü-renk);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+/*hakkında bitiş*/
+/*özgeçmiş başlangıç*/
+.özSection {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+
+}
+.özSection h2{
+    font-size: 4rem;
+    color: var(--ikinci-renk);
+    font-weight: 800;
+    padding: 2rem 3.7rem;
+}
+.özSection .eğitimsec {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 0 2%;
+}
+.özSection .eğitimsec .eğitimh {
+    font-size: 3rem;
+    color: var(--dördüncü-renk);
+    margin-bottom: 2%;
+}
+.özSection .eğitimsec article {
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5rem;
+    flex-direction: row;
+}
+.özSection .eğitimsec article .eğitimd1 {
+    width: 40%;
+    height: 100%;
+    background-color: var(--üçüncü-renk);
+    padding: 1rem;
+    border-left: #2C3E50 solid 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+.özSection .eğitimsec article .eğitimd2 {
+    width: 40%;
+    height: 100%;
+    background-color: var(--üçüncü-renk);
+    border-left: #2C3E50 solid 20px;
+}
+.eğitimd1 h4{
+    font-size: 2rem;
+    color: var(--siyah);
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.eğitimd1 .p1{
+    font-size: 1.4rem;
+    color: var(--siyah);
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+.eğitimd1 p{
+    font-size: 1.4rem;
+    color: var(--ikinci-renk);
+    font-weight: 500;
+}
+.sertifikasec {
+     width: 100%;
+    height: 30%;
+    background-color:var(--ikinci-renk);
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 0 2%;
+    position: relative;
+}
+.sertifikah {
+    font-size: 3rem;
+    color: var(--metin-renk);
+    margin: 1% 0;
+
+}
+.sertifikasec article {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content:space-between   ;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.sertifikasec .div1{
+    width: 40%;
+    height: 100%;
+    background-color: var(--ana-renk);
+    padding: 1rem;
+    border-radius: 20px;
+    position: relative;
+    border: solid 3px var(--dördüncü-renk);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.sertifikasec .div1 h4 {
+    font-size: 2.5rem;
+    color: var(--siyah);
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.sertifikasec .div1 .p1 {
+    font-size: 1.4rem;
+    color: var(--siyah);
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.sertifikasec .div1 p {
+    font-size: 1.4rem;
+    color: var(--ikinci-renk);
+    font-weight: 600;
+}
+.sertifikasec .div1 a {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 2.5%;
+    background-color: var(--dördüncü-renk);
+    border-radius: 40px;
+    text-decoration:none ;
+    font-size: 1.6rem;
+    color: var(--metin-renk);
+    font-weight: 600;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+.kariyersec {
+    width: 60%;
+    height: 30%;
+    background-color: var(--ana-renk);
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 0 2%;
+}
+.kariyersec h3 {
+    font-size: 3rem;
+    color: var(--dördüncü-renk);
+    padding: 3% 0;
+}
+.kariyersec p {
+    font-size: 1.8rem;
+    color: var(--siyah);
+    line-height: 2.5rem;
+    letter-spacing: 1%;
+}
+/*özgeçmiş bitiş*/
+/*iletişim başlangıç*/
+.iletişimsec {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: var(--ikinci-renk);
+    flex-direction: column;
+    padding: 2%;
+}
+.iletişimsec h2 {
+    font-size: 4rem;
+    color: var(--metin-renk);
+    font-weight: 800;
+    margin-bottom: 5%;
+}
+.iletişimsec form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.iletişimsec form input {
+    appearance: none;
+    height: 6rem;
+    width: 50rem;
+    border: 3px solid var(--üçüncü-renk);
+    border-radius: 15px;
+    outline: none;
+    position: relative;
+    font-size: 1.8rem;
+    padding-left: 2rem;
+    font-family: 'Satoshi' , sans-serif;
+    color: black;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+.iletişimsec form input::placeholder{
+ font-size: 1.8rem;
+}
+.iletişimsec form textarea {
+    min-width: 50rem;
+    min-height: 20rem;
+    max-width: 50rem;
+    max-height: 20rem;
+    appearance: none;
+    border: 3px solid var(--üçüncü-renk);
+    border-radius: 15px;
+    font-family: 'Satoshi' , sans-serif;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    font-size: 1.8rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+.iletişimsec form textarea::placeholder {
+    font-size: 1.8rem;
+    font-family: 'Satoshi' , sans-serif;
+}
+.iletişimsec form button {
+    margin-top: 1rem;
+    padding: 3%;
+    background-color: var(--dördüncü-renk);
+    border-radius: 40px;
+    font-size: 1.6rem;
+    color: var(--metin-renk);
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+/*iletişim bitiş*/
+/*footer başlangıç*/
+footer {
+    height: 20vh;
+    width: 100%;
+    background-color: var(--üçüncü-renk);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 2rem;
+    flex-direction: column;
+    position: relative;
+}
+
+footer .sosyalsec ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    height: 7.5rem;
+    width: 40rem;
+    gap: 40px;
+    list-style: none;
+}
+footer .sosyalsec ul li {
+    height: 4rem;
+    width: 4rem;
+    background-color: var(--metin-renk);
+    border-radius: 100%;
+}
+footer .navsec  {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 5rem;
+    gap: 20px;
+}
+footer .navsec a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: var(--siyah);
+}
+
+footer .kişiselsec a{
+    font-size: 1.6rem;
+    margin-top: 10rem;
+    color: var(--ikinci-renk);
+    text-decoration: none;
+
+}
+footer .konumsec {
+    height: 5rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+footer .konumsec span {
+    font-size: 1.6rem;
+    margin-top: 10rem;
+    color: var(--siyah);
+}
+/*footer bitiş*/
+/*main bitiş*/
+    
+ 
