@@ -13,7 +13,7 @@
 }
 html, body {
     font-family: 'Satoshi' , sans-serif;
-    height: 100%;
+    height: auto;
     max-width: 100%;
     width: 100%;
     overflow-x: hidden;
@@ -21,9 +21,9 @@ html, body {
     font-size: 62.5%;
 }
 ::selection{
-        color: var(--metin-renk);
-        background-color: var(--üçüncü-renk) ;
-    }
+    color: var(--metin-renk);
+    background-color: var(--üçüncü-renk) ;
+}
 /*reset bitiş*/
 /*header başlangıç*/
 header {
@@ -52,8 +52,9 @@ header nav ul li a {
     text-decoration: none;
     font-weight:600;
     transition: 300ms color;
+    user-select: none;
 }
-header a::after {
+header li::after {
     content: "";
     position: absolute;
     bottom: 0rem;
@@ -62,12 +63,21 @@ header a::after {
     width: 11rem;
     border-radius: 30px;
     background-color: var(--üçüncü-renk); 
-    cursor: default;   
+    cursor: default;  
+    user-select: none; 
 }
 header a:hover{
  color: var(--dördüncü-renk);
 }
 /*header bitiş*/
+/*menu başlangıç*/
+.menu{
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    display: none;
+}
+/*menu bitiş*/
 /*main başlangıç*/
 .res {
     position: fixed;
@@ -80,17 +90,12 @@ header a:hover{
     z-index: 100;
     outline-offset: 5px;
     outline: 2px solid transparent;
-    transition: 300ms outline;
-}
-.res:hover {
-    transition: 300ms outline;
-    outline: 2px solid var(--dördüncü-renk);
 }
 /*anaSayfa başlangıç*/
 .anaSection {
-    width: 90%;          
+    width: 90%;         
     max-width: 1200px;   
-    margin: 13% 5%; 
+    margin: 20rem 5% 10rem 5%; 
     height: auto;        
     position: relative;
 }
@@ -134,7 +139,7 @@ header a:hover{
 /*hakkında başlangıç*/
 .hakSection {
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: start;
@@ -143,15 +148,14 @@ header a:hover{
 }
 .container1 {
     width: 40%;
-    height: 100%;
     display: grid;
-    grid-template-rows: .28fr .7fr 1fr;
+    grid-template-rows: .28fr 1fr 1fr;
     background-color:var(--ana-renk);
     padding:0 3rem ;
 }
 .container2{
     width: 60%;
-    height: 100%;
+    height: 96rem;
     display: flex;
     justify-content: start;
     align-items: start;
@@ -215,6 +219,7 @@ header a:hover{
     color: 	var(--metin-renk);
     font-size: 1.5rem;
     font-weight: 600;
+    user-select: none;
 }
 .container1 ul .html{
     background-color: #E34C26;
@@ -260,12 +265,13 @@ header a:hover{
     justify-content: center;
     align-items: center;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    user-select: none;
 }
 /*hakkında bitiş*/
 /*özgeçmiş başlangıç*/
 .özSection {
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: start;
     align-items: start;
@@ -275,16 +281,15 @@ header a:hover{
     font-size: 4rem;
     color: var(--ikinci-renk);
     font-weight: 800;
-    padding: 2rem 3.7rem;
+    padding: 0 3.7rem;
 }
 .özSection .eğitimsec {
     width: 100%;
-    height: 30%;
     display: flex;
     justify-content: start;
     align-items: start;
     flex-direction: column;
-    padding: 0 2%;
+    padding: 5rem 2% 15rem 2%;
 }
 .özSection .eğitimsec .eğitimh {
     font-size: 3rem;
@@ -293,7 +298,6 @@ header a:hover{
 }
 .özSection .eğitimsec article {
     width: 90%;
-    height: 50%;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -302,44 +306,45 @@ header a:hover{
 }
 .özSection .eğitimsec article .eğitimd1 {
     width: 40%;
-    height: 100%;
+    height: 15rem;
     background-color: var(--üçüncü-renk);
-    padding: 1rem;
+    padding: 1rem 0 0 2rem;
     border-left: #2C3E50 solid 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 .özSection .eğitimsec article .eğitimd2 {
     width: 40%;
-    height: 100%;
+    height: 15rem;
     background-color: var(--üçüncü-renk);
+    padding: 1rem 0 0 2rem;
     border-left: #2C3E50 solid 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
-.eğitimd1 h4{
+.özSection .eğitimsec article h4{
     font-size: 2rem;
     color: var(--siyah);
     font-weight: 600;
     margin-bottom: 3px;
 }
-.eğitimd1 .p1{
+.özSection .eğitimsec article .p1{
     font-size: 1.4rem;
     color: var(--siyah);
     font-weight: 500;
     margin-bottom: 3px;
 }
-.eğitimd1 p{
+.özSection .eğitimsec article p{
     font-size: 1.4rem;
     color: var(--ikinci-renk);
     font-weight: 500;
 }
 .sertifikasec {
-     width: 100%;
-    height: 30%;
+    width: 100%;
     background-color:var(--ikinci-renk);
     display: flex;
     justify-content: start;
     align-items: start;
     flex-direction: column;
-    padding: 0 2%;
+    padding: 5rem 2%;
     position: relative;
 }
 .sertifikah {
@@ -349,7 +354,6 @@ header a:hover{
 }
 .sertifikasec article {
     width: 100%;
-    height: 60%;
     display: flex;
     justify-content:space-between   ;
     align-items: center;
@@ -357,7 +361,6 @@ header a:hover{
 }
 .sertifikasec .div1{
     width: 45%;
-    height: 100%;
     background-color: var(--ana-renk);
     padding: 1rem;
     border-radius: 20px;
@@ -396,6 +399,7 @@ header a:hover{
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     transition: 300ms outline;
     outline: 3px solid transparent;
+    user-select: none;
 }
 .sertifikasec a:hover {
     transition: 300ms outline;
@@ -403,13 +407,12 @@ header a:hover{
 }
 .kariyersec {
     width: 60%;
-    height: 30%;
     background-color: var(--ana-renk);
     display: flex;
     justify-content: start;
     align-items: start;
     flex-direction: column;
-    padding: 0 2%;
+    padding: 5rem 2%;
 }
 .kariyersec h3 {
     font-size: 3rem;
@@ -425,20 +428,20 @@ header a:hover{
 /*özgeçmiş bitiş*/
 /*iletişim başlangıç*/
 .iletişimsec {
-    height: 95vh;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: start;
     align-items: center;
     background-color: var(--ikinci-renk);
     flex-direction: column;
-    padding: 2%;
+    padding: 5rem 2%;
 }
 .iletişimsec h2 {
     font-size: 4rem;
     color: var(--metin-renk);
     font-weight: 800;
-    margin-bottom: 5%;
+    margin-bottom: 10rem;
 }
 .iletişimsec form {
     display: flex;
@@ -460,9 +463,10 @@ header a:hover{
     font-family: 'Satoshi' , sans-serif;
     color: black;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    user-select: none;
 }
 .iletişimsec form input::placeholder{
- font-size: 1.8rem;
+    font-size: 1.8rem;
 }
 .iletişimsec form textarea {
     width: 50rem;
@@ -476,6 +480,7 @@ header a:hover{
     font-size: 1.8rem;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     outline: none;
+    user-select: none;
 }
 .iletişimsec form textarea::placeholder {
     font-size: 1.8rem;
@@ -494,6 +499,7 @@ header a:hover{
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     transition: 300ms outline;
     outline: 3px solid transparent;
+    user-select: none;
 }
 .iletişimsec button:hover{
     transition: 300ms outline;
@@ -503,7 +509,7 @@ header a:hover{
 /*main bitiş*/
 /*footer başlangıç*/
 footer {
-    height: 20vh;
+    height: auto;
     width: 100%;
     background-color: var(--üçüncü-renk);
     display: flex;
@@ -533,6 +539,7 @@ footer .sosyalsec ul li a {
     width: 4rem;
     border-radius: 100%;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    user-select: none;
 }
 footer .sosyalsec ul li a:hover {
     transition: 300ms transform;
@@ -550,6 +557,7 @@ footer .navsec a {
     text-decoration: none;
     color: var(--siyah);
     transition: 300ms color;
+    user-select: none;
 }
 footer .navsec a:hover{
     color: var(--ikinci-renk);
@@ -592,9 +600,7 @@ footer .konumsec span {
 }
 /*scrol bitiş*/
 /*media etiketleri başlangıç*/
-
-/* Laptop / Desktop Orta */
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (max-width: 1280px) {
     .container1 {
     grid-template-rows: .28fr 1.2fr 1fr;
     }
@@ -606,15 +612,8 @@ footer .konumsec span {
     font-size: 1.6rem;
     line-height: 2rem;
 }
-}
-  
-
-
-/* Laptop Küçük */
-@media (min-width: 768px) and (max-width: 1024px) {
-          .container1 {
-    grid-template-rows: .28fr 1.2fr 1fr;
-}
+}  
+@media (max-width: 1024px) {
   .container1 .teknikp {
     font-size: 1.4rem;
     line-height: 1.7rem;  
@@ -653,45 +652,247 @@ header a::after {
     font-size: 1.8rem;
     margin-bottom: 3px;
 }
+.sertifikasec .div1 h4 {
+    font-size: 1.8rem;
 }
-
-/* Tablet */
-@media (min-width: 425px) and (max-width: 768px) {
-      .container1 {
-    grid-template-rows: .28fr 1.2fr 1fr;
+.sertifikasec .div1 .p1 {
+    font-size: 1.2rem;
 }
-  .container1 .teknikp {
+.sertifikasec .div1 p {
+    font-size: 1.2rem;
+}
+.sertifikasec .div1 a {
+    padding: 1rem;
     font-size: 1.4rem;
-    line-height: 1.8rem;  
+}
+}
+@media (max-width: 750px) {
+header nav ul {
+    display: none;
+}
+.menu{
+    display: inline-block;
+}
+.anaSection .anah1 {
+    font-size: 3.5rem;
+    margin-bottom: 5%;
+}
+.anaSection .anah3 {
+    font-size: 2rem;
+    margin-bottom: 12%;
+}
+.hakSection {
+    width: 100%;
+    flex-direction: column;
+}
+.container1 {
+    grid-template-rows: .28fr .9fr 1fr;
+    width: 100%;
+}
+.container1 .teknikp {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
 }
 .container1 .profilp {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+.container2{
+    width: 100%;
+}
+.özSection .eğitimsec article .eğitimd1 {
+    width: 45%;
+}
+.özSection .eğitimsec article .eğitimd2 {
+    width: 45%;
+}
+.özSection .eğitimsec article h4{
+    font-size: 1.5rem;
+}
+.özSection .eğitimsec article .p1{
+    font-size: 1.2rem;
+}
+.özSection .eğitimsec article .div1{
+    width: 49%;     
+}
+.sertifikasec article {
+    width: 100%;
+    height: 15rem; 
+}
+.kariyersec {
+    width: 100%;
+}
+.kariyersec h3 {
+    font-size: 3rem;
+}
+.kariyersec p {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+.iletişimsec form input {
+    height: 6rem;
+    width: 40rem;
+}
+.iletişimsec form textarea {
+    width: 40rem;
+    height: 20rem;
+}
+}
+@media (max-width: 506px) {
+  .özSection .eğitimsec article {
+    width: 100%;
+    flex-direction: column;
+    gap: 2rem;
+}
+.özSection .eğitimsec article .eğitimd1 {
+    width: 100%;
+}
+.özSection .eğitimsec article .eğitimd2 {
+    width: 100%;
+}
+.özSection .eğitimsec article h4{
+    font-size: 1.8rem;
+}
+.özSection .eğitimsec article .p1{
     font-size: 1.4rem;
-    line-height: 1.8rem;
+}
+.özSection .eğitimsec article p{
+    font-size: 1.4rem;
+}
+.iletişimsec form input {
+    height: 5rem;
+    width: 30rem;
+}
+.iletişimsec form textarea {
+    width: 30rem;
+    height: 15rem;
+}
+.container2 ul li {
+    width: 70%;
+}
+.sertifikasec article {
+    width: 100%;
+    margin-top: 2rem;
+}
+.sertifikasec .div1{
+    width: 45%;
+    padding: 1rem;
+}
+.res {
+    bottom: 2rem;
+    right: 2rem;
+    height: 4rem;
+    width: 4rem;
+}
+.sertifikasec .div1 .p1 {
+    font-size: 1rem;
+}
+.sertifikasec .div1 p {
+    font-size: 1rem;
+}
+.eğitimd1 h4{
+    font-size: 1.6rem;
+}
+header {
+    height: 6.5rem;
+}
+.menu{
+    top: 1.8rem;
+}
+.anaSection .anah3 {
+    margin-bottom: 20%;
+}
+footer .sosyalsec ul{
+    gap: 25px;
+}
+footer .navsec a {
+    font-size: 1.4rem;
+}
+footer .kişiselsec a{
+    font-size: 1.4rem;
+}
+footer .konumsec span {
+    font-size: 1.4rem;
+}
+.container1 .hakkında {
+    font-size: 3rem;
 }
 .container1 .profilh3 {
-    font-size: 2.5rem;
-    margin-bottom: 0;
+    margin-bottom: 10%;
 }
 .container1 .teknikh3 {
+    margin-bottom: 10%;
+}
+.özSection h2{
+    font-size: 3rem;
+    padding: 2rem 3rem;
+}
+.özSection .eğitimsec .eğitimh {
     font-size: 2.5rem;
-    margin-bottom: 0;
+    margin-bottom: 5%;
+}
+.sertifikah {
+    font-size: 2.5rem;
+    margin: 2% 0;
+    padding-left:1rem ;
+}
+.kariyersec h3 {
+    font-size: 2.5rem;
+}
+.iletişimsec h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 5rem;
+    margin-top: 8rem;
+}
+.container1 {
+    grid-template-rows: .20fr .9fr 1fr;
+}
+.anaSection .anadiv .anap {
+    font-size: 1.5rem;
+    letter-spacing: 1%;
 }
 }
-
-/* Mobil Büyük / Phablet */
-@media (min-width: 375px) and (max-width: 425px) {
-  
+@media (max-width: 388px) {
+.özSection .eğitimsec article  h4{
+    font-size: 1.8rem;
 }
-
-/* Mobil Orta */
-@media (min-width: 320px) and (max-width: 372px) {
-  
+.özSection .eğitimsec article .p1{
+    font-size: 1.2rem;
 }
-
-/* Mobil Küçük (telefon) */
-@media (max-width: 320px) {
-  
+.özSection .eğitimsec article p{
+    font-size: 1.2rem;
 }
-
-/*media etiketleri bitiş*/    
- 
+.sertifikasec {
+    width: 100%;
+    flex-direction: column;
+    padding: 0 ;
+}
+.sertifikasec article {
+    width: 100%;
+    gap: 3rem;
+    flex-direction: column;   
+}
+.sertifikasec .div1{
+    width: 90%;
+    padding: 1rem;
+}
+.sertifikasec .div1 h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.sertifikasec .div1 .p1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.sertifikasec .div1 p {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.sertifikasec .div1 a {
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+}
