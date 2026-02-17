@@ -10,3 +10,8 @@ menuBtn.addEventListener('click', function() {
         menuNav.style.display = 'none';
     }
 });
+window.addEventListener('resize', function() {
+    if(window.innerWidth > 750){
+        menuNav.style.display = 'none';
+    }
+});
