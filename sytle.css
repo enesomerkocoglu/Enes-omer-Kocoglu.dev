@@ -428,10 +428,6 @@ header a::after {
     height: .6rem;
     width: 9.5rem;
 }
-.anaSection .anah1 {
-    font-size: 4rem;
-    margin-bottom: 3%;
-}
 .eğitimd1 h4{
     font-size: 1.8rem;
     margin-bottom: 3px;
@@ -458,7 +454,7 @@ header nav ul {
     display: inline-block;
 }
 .anaSection .anah1 {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     margin-bottom: 5%;
 }
 .anaSection .anah3 {
