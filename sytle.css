@@ -522,3 +522,133 @@ header nav ul {
     display: none;
 }
 }
+@media (max-width: 506px) {
+.özSection h2 {
+        margin: 2rem  0;
+    }
+.özSection .eğitimsec {
+    padding: 2rem 2% 11rem 2%;
+}
+.özSection .eğitimsec article {
+    width: 100%;
+    flex-direction: column;
+    gap: 2rem;
+}
+.özSection .eğitimsec article .eğitimd1 {
+    width: 100%;
+}
+.özSection .eğitimsec article .eğitimd2 {
+    width: 100%;
+}
+.özSection .eğitimsec article h4{
+    font-size: 1.8rem;
+}
+.özSection .eğitimsec article .p1{
+    font-size: 1.4rem;
+}
+.özSection .eğitimsec article p{
+    font-size: 1.4rem;
+}
+.container2 ul li {
+    width: 70%;
+}
+.sertifikasec .div1 .p1 {
+    font-size: 1rem;
+}
+.sertifikasec .div1 p {
+    font-size: 1rem;
+}
+.eğitimd1 h4{
+    font-size: 1.6rem;
+}
+footer .sosyalsec ul{
+    gap: 25px;
+}
+footer .navsec a {
+    font-size: 1.4rem;
+}
+footer .kişiselsec a{
+    font-size: 1.4rem;
+}
+footer .konumsec span {
+    font-size: 1.4rem;
+}
+.container1 .hakkında {
+    font-size: 3rem;
+}
+.container1 .profilh3 {
+    margin-bottom: 10%;
+}
+.container1 .teknikh3 {
+    margin-bottom: 10%;
+}
+.özSection h2{
+    font-size: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 0;
+}
+.özSection .eğitimsec .eğitimh {
+    font-size: 2.5rem;
+    margin-bottom: 5%;
+}
+.sertifikah {
+    font-size: 2.5rem;
+    margin: 2% 0;
+    padding-left:1rem ;
+}
+.kariyersec h3 {
+    font-size: 2.5rem;
+}
+.kariyersec p {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+.container1 {
+    grid-template-rows: .20fr .9fr 1fr;
+}
+}
+@media (max-width: 388px) {
+.özSection .eğitimsec article  h4{
+    font-size: 1.8rem;
+}
+.özSection .eğitimsec article .p1{
+    font-size: 1.2rem;
+}
+.özSection .eğitimsec article p{
+    font-size: 1.2rem;
+}
+.sertifikasec {
+    width: 100%;
+    flex-direction: column;
+    padding: 0 ;
+}
+.sertifikasec article {
+    width: 100%;
+    height: 35rem;
+    gap: 3rem;
+    flex-direction: column; 
+    padding: 2rem 0;  
+}
+.sertifikasec .div1{
+    width: 90%;
+    padding: 1rem;
+}
+.sertifikasec .div1 h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.sertifikasec .div1 .p1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.sertifikasec .div1 p {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.sertifikasec .div1 a {
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+}
