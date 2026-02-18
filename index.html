@@ -13,6 +13,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+*:focus {
+    outline: 2px solid var(--dördüncü-renk);
+    outline-offset: 4px;
+}
 :root {
     --ana-renk : #F2F1EF ;
     --ikinci-renk : #2C3E50;
@@ -205,7 +209,7 @@ header nav ul li a:hover{
 /*anaSayfa bitiş*/
 @media (max-width: 506px) {
 .anaSection .anah1 {
-    font-size: 4.5rem;
+    font-size: 5rem;
     margin-bottom: 5%;
 }
 .anaSection .anah3 {
@@ -254,7 +258,7 @@ header {
                 </li>
             </ul>     
         </nav>
-        <button class="menubtn">
+        <button class="menubtn" aria-label="menüyü aç" tabindex="0" aria-expanded="false" >
             <img class="clsbtn" src="./gorsel/close.svg" alt="">
             <img class="opnbtn" src="./gorsel/menu.svg" alt="">
         </button>   
@@ -264,7 +268,7 @@ header {
         <a href="#Hakkında">HAKKINDA</a> 
         <a href="#Özgeçmiş">ÖZGEÇMİŞ</a>   
     </div>
-    <article class="res">
+    <article class="res" aria-label="sayfanın en üstene git" tabindex="0">
         <a href="#AnaSayfa">
             <figure>
                 <img class="arrow" src="./gorsel/arrow-up.svg" alt="ok">
@@ -305,9 +309,9 @@ header {
                         deneyimine sahibim. Mobil uyumluluk ve erişilebilirlik odaklı yaklaşımları projelerime entegre etmeye özen gösteriyorum.
                     </P>
                     <ul>
-                        <li class="html"><span>HTML</span></li>
-                        <li class="css"><span>CSS</span></li>
-                        <li class="javascript"><span>JS</span></li>
+                        <li class="html" aria-hidden="true"><span>HTML</span></li>
+                        <li class="css" aria-hidden="true"><span>CSS</span></li>
+                        <li class="javascript" aria-hidden="true"><span>JS</span></li>
                     </ul>
                 </article>   
             </div>
@@ -315,7 +319,7 @@ header {
                 <div class="göreseld"></div>
                 <h2 class="projeh">ÖNE ÇIKAN PROJELER</h2>
                 <ul>
-                    <li>
+                    <li tabindex="0">
                         <article>
                             <a href=""></a>
                             <figure>
@@ -324,7 +328,7 @@ header {
                             </figure>
                         </article>
                     </li>
-                     <li>
+                     <li tabindex="0">
                         <article>
                             <a href=""></a>
                             <figure>
@@ -333,9 +337,9 @@ header {
                             </figure>
                         </article>
                     </li>
-                     <li>
+                     <li tabindex="0">
                         <article>
-                            <a href=""></a>
+                            <a tabindex="0" href=""></a>
                             <figure>
                                 <img src="" alt="proje 3">
                                 <figcaption>Proje 3: </figcaption>
@@ -369,13 +373,13 @@ header {
                         <h4>Responsive Web Design</h4>
                         <p class="p1">KURUM : FREECODECAMP</p>
                         <p>YETENEKLER : HTML , CSS</p>
-                        <a target="_blank" href="https://freecodecamp.org/certification/ekcrypt/responsive-web-design-v9">GÖRÜNTÜLE</a>
+                        <a target="_blank" href="https://freecodecamp.org/certification/ekcrypt/responsive-web-design-v9" aria-label="Responsive Web Design sertifikasını görüntüle">GÖRÜNTÜLE</a>
                     </div>
                     <div class="div1"> 
                         <h4>JAVASCRİPT</h4>
                         <p class="p1">KURUM : FREECODECAMP</p>
                         <p>YETENEKLER : JAVASCRİPT</p> 
-                        <a target="_blank" href="https://freecodecamp.org/certification/ekcrypt/javascript-v9">GÖRÜNTÜLE</a>
+                        <a target="_blank" href="https://freecodecamp.org/certification/ekcrypt/javascript-v9" aria-label="JAVASCRİPT sertifikasını görüntüle">GÖRÜNTÜLE</a>
                     </div>
                 </article>
             </section>
