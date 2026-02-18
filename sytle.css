@@ -78,7 +78,7 @@
     transform: scale(1.2);
 }
 .container1 ul li span{
-    color: 	var(--metin-renk);
+    color: 	var(--siyah);
     font-size: 1.5rem;
     font-weight: 600;
     user-select: none;
@@ -98,12 +98,12 @@
     background-color: transparent;
     display: block;
     border-width: 0 0 5px 0;
-    border-color: var(--dördüncü-renk);
+    border-color: var(--üçüncü-renk);
     border-style: solid;
 }
 .container2 .projeh {
     font-size: 3rem;
-    color: var(--üçüncü-renk);
+    color: var(--metin-renk);
     font-weight: 300;
     padding-top: 3.5rem;
     padding-left: 1rem;
@@ -226,7 +226,7 @@
     padding: 1rem;
     border-radius: 20px;
     position: relative;
-    border: solid 3px var(--dördüncü-renk);
+    border: solid 3px var(--üçüncü-renk);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 .sertifikasec .div1 h4 {
@@ -251,7 +251,7 @@
     bottom: .5rem;
     right: 1rem;
     padding: 1.4rem;
-    background-color: var(--dördüncü-renk);
+    background-color: var(--ikinci-renk);
     border-radius: 40px;
     text-decoration:none ;
     font-size: 1.6rem;
