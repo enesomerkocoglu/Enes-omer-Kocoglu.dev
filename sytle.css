@@ -258,12 +258,12 @@
     color: var(--metin-renk);
     font-weight: 600;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-    transition: 300ms outline;
+    transition: 300ms border;
     border: 3px solid transparent;
 }
 .sertifikasec a:hover {
     transition: 300ms border;
-    outline: 3px solid var(--üçüncü-renk);
+    border: 3px solid var(--üçüncü-renk);
 }
 .kariyersec {
     width: 60%;
