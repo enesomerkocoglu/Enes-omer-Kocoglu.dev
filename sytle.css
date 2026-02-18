@@ -1,7 +1,4 @@
 /*hakkında başlangıç*/
-img {
-    user-select: none;
-}
 .hakSection {
     width: 100%;
     height: auto;
@@ -214,7 +211,7 @@ img {
 .sertifikah {
     font-size: 3rem;
     color: var(--metin-renk);
-    margin: 1% 0 2rem 0;
+    margin: 1% 0 5rem 0;
 }
 .sertifikasec article {
     width: 100%;
