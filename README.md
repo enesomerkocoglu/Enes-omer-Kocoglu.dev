@@ -21,7 +21,7 @@
 
 | Anasayfa | Hakkında |
 |:---:|:---:|
-| ![Anasayfa](https://github.com/user-attachments/assets/cab49f81-dcd5-44c4-a099-6e4815703c0d) | ![Hakkında](https://github.com/user-attachments/assets/915e811e-7b21-43cf-8f37-108bf73c3f59) |
+| ![Anasayfa](https://github.com/user-attachments/assets/cab49f81-dcd5-44c4-a099-6e4815703c0d) | ![Hakkında](https://github.com/user-attachments/assets/8c05fbcf-80ba-4d53-8365-e08d525ddc2a) |
 
 | Özgeçmiş | Footer |
 |:---:|:---:|
