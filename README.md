@@ -4,7 +4,7 @@
 
 ### Enes Ömer Koçoğlu · Jr. Front-End Developer
 
-[![Live Demo](https://img.shields.io/badge/🌐%20Canlı%20Demo-Portfolyo-2C3E50?style=for-the-badge)](https://enesomerkocoglu.github.io/portfolyo)
+[![Live Demo](https://img.shields.io/badge/%20Canlı%20Demo-Portfolyo-2C3E50?style=for-the-badge)](https://enesomerkocoglu.github.io/portfolyo)
 [![GitHub](https://img.shields.io/badge/Kaynak%20Kodu-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/enesomerkocoglu/portfolyo)
 [![Status](https://img.shields.io/badge/Durum-Aktif%20Geliştirme-success?style=for-the-badge)]()
 
@@ -17,7 +17,7 @@
 
 ---
 
-## 📸 Ekran Görüntüleri
+##  Ekran Görüntüleri
 
 | Anasayfa | Hakkında |
 |:---:|:---:|
@@ -29,13 +29,13 @@
 
 ---
 
-## 🎯 Sitenin Amacı
+## Sitenin Amacı
 
 İşe alım süreçlerinde özgeçmişin ötesine geçmek. Teknik becerilerimi, eğitim geçmişimi ve kariyer hedeflerimi — tek, erişilebilir ve profesyonel bir dijital kimlikte sunmak.
 
 ---
 
-## 🗂️ Sayfa Yapısı
+## Sayfa Yapısı
 
 | Bölüm | İçerik |
 |---|---|
@@ -46,7 +46,7 @@
 
 ---
 
-## 🛠️ Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -54,7 +54,7 @@
 
 ---
 
-## 🏗️ Teknik Mimari
+## Teknik Mimari
 
 **Neden Vanilla HTML/CSS/JS?**
 
@@ -90,19 +90,19 @@ Tüm renkler CSS Custom Properties ile merkezi olarak yönetiliyor:
 ```
 
 ---
-## ✨ Özellikler
+## Özellikler
 
-- 📱 **Tam Responsive** — 5 breakpoint ile 388px'den 1440px'e kadar uyumlu
-- 🍔 **Animasyonlu Hamburger Menü** — CSS transform + opacity ile akıcı geçiş
-- ♿ **Erişilebilirlik** — `aria-label`, `aria-expanded`, `tabindex`, semantic HTML
-- ⬆️ **Sayfanın Üstüne Git** — Sabit konumlu hızlı erişim butonu
-- 🎨 **CSS Custom Properties** — Merkezi renk ve tema yönetimi
-- ⚡ **Performans Odaklı CSS Yükleme** — Render-blocking önleyici teknik
-- 🔍 **SEO Hazır** — `meta description`, `meta keywords`, `meta author` etiketleri
+- **Tam Responsive** — 5 breakpoint ile 388px'den 1440px'e kadar uyumlu
+-  **Animasyonlu Hamburger Menü** — CSS transform + opacity ile akıcı geçiş
+-  **Erişilebilirlik** — `aria-label`, `aria-expanded`, `tabindex`, semantic HTML
+- **Sayfanın Üstüne Git** — Sabit konumlu hızlı erişim butonu
+-  **CSS Custom Properties** — Merkezi renk ve tema yönetimi
+-  **Performans Odaklı CSS Yükleme** — Render-blocking önleyici teknik
+-  **SEO Hazır** — `meta description`, `meta keywords`, `meta author` etiketleri
 
 ---
 
-## 🎓 Eğitim & Sertifikalar
+##  Eğitim & Sertifikalar
 
 **Eğitim**
 
@@ -120,7 +120,7 @@ Tüm renkler CSS Custom Properties ile merkezi olarak yönetiliyor:
 
 ---
 
-## 📚 Bu Projeden Öğrendiklerim
+## Bu Projeden Öğrendiklerim
 
 **Teknik Kazanımlar**
 - **CSS Custom Properties ile tema yönetimi:** Onlarca bileşene tek yerden renk uygulamak, ölçeklenebilir stil mimarisinin temelini oluşturuyor.
@@ -133,18 +133,18 @@ Tüm renkler CSS Custom Properties ile merkezi olarak yönetiliyor:
 
 ---
 
-## ⚡ Performans & Kalite
+## Performans & Kalite
 
 **Google PageSpeed Insights — Mobil & Masaüstü**
 
 | Metrik | Mobil | Masaüstü |
 |---|---|---|
-| 🚀 Performans | ![100](https://img.shields.io/badge/100-success?style=flat-square) | ![100](https://img.shields.io/badge/100-success?style=flat-square) |
-| ♿ Erişilebilirlik | ![100](https://img.shields.io/badge/100-success?style=flat-square) | ![100](https://img.shields.io/badge/100-success?style=flat-square) |
-| ✅ En İyi Uygulamalar | ![100](https://img.shields.io/badge/100-success?style=flat-square) | ![100](https://img.shields.io/badge/100-success?style=flat-square) |
-| 🔍 SEO | ![100](https://img.shields.io/badge/100-success?style=flat-square) | ![100](https://img.shields.io/badge/100-success?style=flat-square) |
+| Performans | ![100](https://img.shields.io/badge/100-success?style=flat-square) | ![100](https://img.shields.io/badge/100-success?style=flat-square) |
+| Erişilebilirlik | ![100](https://img.shields.io/badge/100-success?style=flat-square) | ![100](https://img.shields.io/badge/100-success?style=flat-square) |
+| En İyi Uygulamalar | ![100](https://img.shields.io/badge/100-success?style=flat-square) | ![100](https://img.shields.io/badge/100-success?style=flat-square) |
+| SEO | ![100](https://img.shields.io/badge/100-success?style=flat-square) | ![100](https://img.shields.io/badge/100-success?style=flat-square) |
 
-> 📊 [PageSpeed Insights Raporu](https://pagespeed.web.dev/analysis?url=https://enesomerkocoglu.github.io/Enes-omer-Kocoglu.dev/)
+> PageSpeed Insights Raporu](https://pagespeed.web.dev/analysis?url=https://enesomerkocoglu.github.io/Enes-omer-Kocoglu.dev/)
 
 **Diğer Kalite Metrikleri**
 
@@ -158,7 +158,7 @@ Tüm renkler CSS Custom Properties ile merkezi olarak yönetiliyor:
 
 ---
 
-## 🗺️ Gelecek Planları
+## Gelecek Planları
 
 - [ ] Öne Çıkan Projeler bölümünü gerçek projelerle doldurma
 - [ ] Dark / Light tema toggle
@@ -168,7 +168,7 @@ Tüm renkler CSS Custom Properties ile merkezi olarak yönetiliyor:
 
 ---
 
-## 📬 İletişim
+## İletişim
 
 <div align="center">
 
@@ -177,7 +177,7 @@ Tüm renkler CSS Custom Properties ile merkezi olarak yönetiliyor:
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/enesomerkocoglu)
 [![E-posta](https://img.shields.io/badge/E--posta-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&to=enesomerk1@gmail.com)
 
-📍 İstanbul / Türkiye
+İstanbul / Türkiye
 
 <br/>
 
