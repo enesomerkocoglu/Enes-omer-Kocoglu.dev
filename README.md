@@ -175,7 +175,7 @@ Tüm renkler CSS Custom Properties ile merkezi olarak yönetiliyor:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/enes-ömer-koçoğlu-08447937b)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/enesomerkocoglu)
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/enesomerkocoglu)
-[![E-posta](https://img.shields.io/badge/E--posta-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:enesomerk1@gmail.com)
+[![E-posta](https://img.shields.io/badge/E--posta-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&to=enesomerk1@gmail.com)
 
 📍 İstanbul / Türkiye
 
