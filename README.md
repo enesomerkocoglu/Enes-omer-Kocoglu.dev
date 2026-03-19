@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧑‍💻 Kişisel Portfolyo Web Sitesi
+#  Kişisel Portfolyo Web Sitesi
 
 ### Enes Ömer Koçoğlu · Jr. Front-End Developer
 
@@ -90,7 +90,6 @@ Tüm renkler CSS Custom Properties ile merkezi olarak yönetiliyor:
 ```
 
 ---
-
 ## ✨ Özellikler
 
 - 📱 **Tam Responsive** — 5 breakpoint ile 388px'den 1440px'e kadar uyumlu
@@ -136,13 +135,25 @@ Tüm renkler CSS Custom Properties ile merkezi olarak yönetiliyor:
 
 ## ⚡ Performans & Kalite
 
+**Google PageSpeed Insights — Mobil & Masaüstü**
+
+| Metrik | Mobil | Masaüstü |
+|---|---|---|
+| 🚀 Performans | ![100](https://img.shields.io/badge/100-success?style=flat-square) | ![100](https://img.shields.io/badge/100-success?style=flat-square) |
+| ♿ Erişilebilirlik | ![100](https://img.shields.io/badge/100-success?style=flat-square) | ![100](https://img.shields.io/badge/100-success?style=flat-square) |
+| ✅ En İyi Uygulamalar | ![100](https://img.shields.io/badge/100-success?style=flat-square) | ![100](https://img.shields.io/badge/100-success?style=flat-square) |
+| 🔍 SEO | ![100](https://img.shields.io/badge/100-success?style=flat-square) | ![100](https://img.shields.io/badge/100-success?style=flat-square) |
+
+> 📊 [PageSpeed Insights Raporu](https://pagespeed.web.dev/analysis?url=https://enesomerkocoglu.github.io/Enes-omer-Kocoglu.dev/)
+
+**Diğer Kalite Metrikleri**
+
 | Metrik | Durum | Notlar |
 |---|---|---|
-| İlk Yükleme | ✅ Hızlı | Render-blocking CSS yükleme tekniği |
 | Responsive | ✅ Tam Uyum | 5 breakpoint, 388px–1440px arası |
 | Semantic HTML | ✅ | `section`, `article`, `figure`, `nav` kullanımı |
 | Erişilebilirlik | ✅ | `aria-label`, `aria-expanded`, `tabindex` |
-| SEO | ✅ | Meta description, keywords, author |
+| SEO | ✅ | Meta description, keywords, author etiketleri |
 | Cross-Browser | ✅ | Chrome, Firefox, Safari, Edge |
 
 ---
