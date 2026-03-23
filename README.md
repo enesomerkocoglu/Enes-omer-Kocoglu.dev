@@ -4,7 +4,7 @@
 
 ### Enes Ömer Koçoğlu · Jr. Front-End Developer
 
-[![Live Demo](https://img.shields.io/badge/%20Canlı%20Demo-Portfolyo-2C3E50?style=for-the-badge)](https://enesomerkocoglu.github.io/portfolyo)
+[![Live Demo](https://img.shields.io/badge/%20Canlı%20Demo-Portfolyo-2C3E50?style=for-the-badge)](https://enesomerkocoglu.github.io/Enes-omer-Kocoglu.dev/)
 [![GitHub](https://img.shields.io/badge/Kaynak%20Kodu-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/enesomerkocoglu/portfolyo)
 [![Status](https://img.shields.io/badge/Durum-Aktif%20Geliştirme-success?style=for-the-badge)]()
 
