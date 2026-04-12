@@ -8,13 +8,6 @@
     position: relative;
     margin-top: 10%;
 }
-.container1 {
-    width: 40%;
-    display: grid;
-    grid-template-rows: .28fr 1fr 1fr;
-    background-color:var(--ana-renk);
-    padding:0 3rem ;
-}
 .container2{
     width: 60%;
     height: 106rem;
@@ -23,6 +16,13 @@
     align-items: start;
     flex-direction: column;
     background-color: var(--ikinci-renk);
+}
+.container1 {
+    width: 40%;
+    display: grid;
+    grid-template-rows: .28fr 1fr 1fr;
+    background-color:var(--ana-renk);
+    padding:0 3rem ;
 }
 .container1 .hakkında {
     font-size: 4rem;
