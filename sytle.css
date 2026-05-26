@@ -389,17 +389,17 @@ footer .konumsec span {
 /*footer bitiş*/
 /*scrol başlangıç*/
 ::-webkit-scrollbar{
-    width: 8px;
+    width: 4px;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: var(--üçüncü-renk);
-  border-radius: 10px;
+  background-color: transparent;
+  border-radius: 0px;
 }
 ::-webkit-scrollbar-track {
   background-color: var(--ikinci-renk);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #8f8f8f;
+  background:var(--dördüncü-renk);
 }
 /*scrol bitiş*/
 /*media etiketleri başlangıç*/
